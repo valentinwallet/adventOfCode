@@ -22,6 +22,8 @@ func allCharacterDifferent(for str: String) -> Bool {
 }
 
 func partTwo(input: String) -> Int {
+
+
     for i in 0..<input.count {
         let rangeUppedBound = min(i + 14, input.count)
         let str = input.substring(withRange: i..<rangeUppedBound)
